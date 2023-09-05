@@ -3,7 +3,7 @@ const express = require('express');
 const apiKeyMiddleware = (req, res, next) => {
   const apiKey = req.query.apiKey;
 
-  if (!apiKey || apiKey !== 'your_api_key_here') {
+  if (!apiKey || apiKey !== 'key_xyz') {
     return res.status(401).json({ error: 'Unauthorized' });
   }
 
