@@ -1,0 +1,14 @@
+{
+  "name": "swe-4538-server-programming",
+  "version": "1.0.0",
+  "description": "lab tasks of server programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
